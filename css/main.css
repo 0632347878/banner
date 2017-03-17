@@ -1,0 +1,238 @@
+body {
+  font-size: 16px;
+  min-width: 320px;
+  line-height: 1.75;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  width: 240px;
+  height: 400px;
+  margin: auto;
+  background-image: url(../img/bg.png);
+  position: relative;
+  overflow: hidden
+}
+
+.top_title {
+  color: #f4e762;
+  font-family: Archangelsk, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.man {
+  background-image: url(../img/man_cat.png);
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -5px
+}
+
+.bottom span {
+  color: #f4e762;
+  font-family: OpenSans, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-top: 14px;
+  margin-left: 26px;
+  display: block
+}
+
+.man img {
+  display: block;
+}
+
+.bottom img {
+  position: absolute;
+  margin-left: 190px
+}
+
+.bottom_block img {
+  position: absolute;
+  margin-left: 189px;
+  margin-top: -40px;
+}
+
+.bottom_block p {
+  color: white;
+  font-family: OpenSans, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 3px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.bottom_block {
+  margin-top: 69%;
+  height: 77px;
+  background-color: #bb57d5;
+  box-shadow: 0.7px -5px 76px rgba(0, 1, 2, 0.75);
+  overflow: hidden;
+}
+
+.bottom_block span {
+  color: #f4e762;
+  font-family: OpenSans, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-left: 27px;
+  bottom: 10px;
+  position: absolute;
+}
+
+.man,
+.mouse,
+.top_title,
+.for_free,
+.time,
+.pointer,
+.bottom_block,
+.stage2-bottom_block,
+.stage2-ltext_1,
+.stage2-rtext_2,
+.stage2-ltext_3,
+.stage2-rtext_4,
+.stage2-ltext_5,
+.stage2_limg-1,
+.stage2_rimg-2,
+.cat, .dreams-real {
+  opacity: 0;
+}
+
+.man.animated,
+.mouse.animated,
+.top_title.animated,
+.for_free.animated,
+.time.animated,
+.pointer.animated,
+.bottom_block.animated,
+.stage2-ltext_1.animated,
+.stage2-rtext_2.animated,
+.stage2-ltext_3.animated .stage2-rtext_4.animated,
+.stage2-ltext_5.animated,
+.stage2_limg-1.animated,
+.stage2_rimg-2.animated,
+.cat.animated,
+.stage2-bottom_block.animated,
+.dreams-real.animated, 
+ {
+  opacity: 1;
+}
+
+.stage2_text {
+  font-family: 'Open Sans Extrabold';
+  color: #f4e762;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+}
+
+.stage2_limg-1,
+.stage2_rimg-2 {
+  top: 160px;
+  position: absolute;
+}
+
+.stage2_limg-1 {
+  left: 25px;
+}
+
+.stage2_rimg-2 {
+  left: 128px;
+  top: 168px;
+}
+
+.cat {
+  top: 195px;
+  left: 60px;
+  position: absolute;
+  position: absolute;
+}
+
+.stage2-bottom_block {
+  background-color: #bb57d5;
+  box-shadow: 0.7px -5px 76px rgba(0, 1, 2, 0.75);
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  height: 77px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bottom__block {
+  background-color: #bb57d5;
+  box-shadow: 0.7px -5px 76px rgba(0, 1, 2, 0.75);
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  height: 77px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Open Sans Extrabold';
+}
+
+.all {
+  margin: 0;
+  font: 18px/20px 'Open Sans Extrabold', sans-serif;
+  color: #f4e762;
+  margin-top: 15px;
+}
+
+.all-for-free {
+  font: 30px/32px 'Open Sans Extrabold', sans-serif;
+  color: #fff;
+}
+.dreams-real {
+  font: 30px/32px Archangelsk, sans-serif;
+  color: #f4e762;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+}
+.man_cool {
+  position: absolute;
+  top: 73px;
+  left: 10px;
+}
+.cool {
+  margin: 0;
+ font-size: 30px;
+  color: #fff;
+      letter-spacing: 2px;
+}
+.run_site {
+  font-size: 18px;
+  color: #f4e762;
+  left: 25px;
+  bottom: 5px;
+  position: absolute;
+}
+.stage3-pointer {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.mouse_cool {
+    position: absolute;
+    top: 105px;
+    left: 15px;
+}

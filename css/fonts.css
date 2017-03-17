@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Archangelsk';
+	src: url('../fonts/Archangelsk.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Open Sans Extrabold';
+	src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+}

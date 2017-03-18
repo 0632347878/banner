@@ -107,7 +107,14 @@ body {
 .stage2-ltext_5,
 .stage2_limg-1,
 .stage2_rimg-2,
-.cat, .dreams-real {
+.cat, .dreams-real,
+.man_cool, 
+.mouse_cool,
+.stage3-bottom_block,
+.cool,
+.stage3-pointer,
+.run_site
+{
   opacity: 0;
 }
 
@@ -127,6 +134,12 @@ body {
 .cat.animated,
 .stage2-bottom_block.animated,
 .dreams-real.animated, 
+.man_cool.animated,
+.mouse_cool.animated,
+.stage3-bottom_block.animated,
+.cool.animated,
+.stage3-pointer.animated,
+.run_site.animated
  {
   opacity: 1;
 }

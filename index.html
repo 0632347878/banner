@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <div class="content">
-    <div class="top_title">
+    <div class="top_title top_tatle__stage1">
       Мечтаете о сыре ?
     </div>
     <div class="man">
@@ -49,17 +49,38 @@
     <img src="img/cat_mouse.png" class="mouse_cool" alt=" ">
     <div class="stage3-bottom_block bottom__block ">
       <p class="cool">ЭТО КРУТО</p>
-      <img class="stage3-pointer" src="img/push1.png " alt="push ">
+      <img class="stage3-pointer" src="img/push1.png " alt="push">
       <span class="run_site ">сайт запущен</span>
     </div>
+    <!-- stage4 -->
+    <div class="stage4-top_title">
+    	FOR.RU
+    </div>
+    <div class="animals_w">
+    	<div class="cloud_holder">
+    		<i>А нам
+    		можно
+    		сайт?</i>
+    	</div>	
+    	<img class="cat_mouse-stage4" src="img/cat_mouse-stage4.png" alt="">
+    </div>
+    <img src="img/man_rocket.png" alt="man_rocket" class="man_rocket">
+    <div class="stage4-bottom_block">
+      <p class="create_site">СОЗДАТЬ</p>
+      <img class="stage4-pointer" src="img/push1.png" alt="push">
+      <span class="your-site">свой сайт</span>
+    </div>
   </div>
+
+
   <script src="https://code.jquery.com/jquery-3.2.0.js "></script>
   <script>
   $(document).ready(function() {
-        // stage1
+  	 
+        /* stage1 */
         setTimeout(function() {
-          $(".man").addClass("animated zoomIn ");
-        }, 500);
+          $(".man").addClass("animated zoomIn")
+        });
 
         setTimeout(function() {
           $(".mouse ").addClass("animated shake ");
@@ -91,12 +112,10 @@
           $(".time ").removeClass("animated ");
           $(".pointer ").removeClass("animated ");
           $(".bottom_block ").removeClass("animated ");
-          //
+          
         }, 5000);
 
-      
-
-          // stage2
+          /* stage2 */
 
           setTimeout(function() {
             $(".stage2-ltext_1 ").addClass("animated fadeInLeft ");
@@ -146,7 +165,7 @@
 
           }, 8000);
 
-          // stage3
+          /* stage3 */
 
           setTimeout(function() {
             $(".dreams-real").addClass("animated fadeInLeft ");
@@ -184,7 +203,34 @@
             $(".stage3-pointer").removeClass("animated ");
             $(".run_site").removeClass("animated ");
 
-          }, 11200);
+          }, 10900);
+
+          /* stage4 */
+
+          setTimeout(function() {
+            $(".man_rocket").addClass("animated bounceInLeft");
+          },11200);
+
+          setTimeout(function() {
+           $(".man_rocket").removeClass("bounceInLeft").addClass("swing");
+          },13700);
+
+          setTimeout(function() {
+            $(".stage4-top_title").addClass("animated bounceIn");
+          },13300);
+
+          setTimeout(function() {
+            $(".cat_mouse-stage4").addClass("animated zoomIn");
+          },13400);
+
+          setTimeout(function() {
+            $(".cloud_holder").addClass("animated fadeIn");
+          },13950);
+
+          setTimeout(function() {
+            $(".stage4-bottom_block").addClass("animated zoomIn");
+          },14200);
+         
         });
   </script>
 </body>

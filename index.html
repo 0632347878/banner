@@ -13,7 +13,7 @@
 <body>
   <div class="content">
     <div class="top_title top_tatle__stage1">
-      Мечтаете о сыре ?
+      Мечтаете о <span class="st1-top-text1">сыре ?</span><span class="st1-top-text2">сайте ?</span>
     </div>
     <div class="man">
       <img src="img/man_cat.png" alt="img">
@@ -70,6 +70,7 @@
       <img class="stage4-pointer" src="img/push1.png" alt="push">
       <span class="your-site">свой сайт</span>
     </div>
+    <div class="end_text">У нас можно всё :)</div>
   </div>
 
 
@@ -90,20 +91,33 @@
           $(".top_title ").addClass("animated slideInDown ");
         }, 1900);
 
+            setTimeout(function() {
+          $(".st1-top-text1").addClass("animated slideInDown");
+        }, 2300);
+
+          setTimeout(function() {
+          $(".st1-top-text1").removeClass("animated slideInDown");
+        }, 3500);
+
+        setTimeout(function() {
+          
+          $(".st1-top-text2").addClass("animated slideInLeft");
+        }, 3500);
+
         setTimeout(function() {
           $(".for_free ").addClass("animated slideInUp ");
-        }, 2100);
+        }, 2700);
 
         setTimeout(function() {
           $(".time ").addClass("animated slideInUp ");
-        }, 2500);
+        }, 3100);
 
         setTimeout(function() {
           $(".pointer ").addClass("animated slideInUp ");
-        }, 3200);
+        }, 3800);
         setTimeout(function() {
           $(".bottom_block ").addClass("animated zoomIn ");
-        }, 1900);
+        }, 4100);
         setTimeout(function() {
           $(".man ").removeClass("animated ");
           $(".mouse ").removeClass("animated ");
@@ -113,43 +127,43 @@
           $(".pointer ").removeClass("animated ");
           $(".bottom_block ").removeClass("animated ");
           
-        }, 5000);
+        }, 5700);
 
           /* stage2 */
 
           setTimeout(function() {
             $(".stage2-ltext_1 ").addClass("animated fadeInLeft ");
-          }, 5500);
+          }, 6000);
 
           setTimeout(function() {
             $(".stage2-rtext_2 ").addClass("animated fadeInRight ");
-          }, 5600);
+          }, 6200);
 
           setTimeout(function() {
             $(".stage2-ltext_3 ").addClass("animated fadeInLeft ");
-          }, 5700);
+          }, 6350);
 
           setTimeout(function() {
             $(".stage2-rtext_4 ").addClass("animated fadeInRight ");
-          }, 5800);
+          }, 6500);
 
           setTimeout(function() {
             $(".stage2-ltext_5 ").addClass("animated fadeInLeft ");
-          }, 5900);
+          }, 6650);
 
           setTimeout(function() {
             $(".stage2_limg-1 ").addClass("animated slideInUp ");
-          }, 6200);
+          }, 6900);
           setTimeout(function() {
             $(".stage2_rimg-2 ").addClass("animated slideInUp ");
-          }, 6200);
+          }, 7000);
 
           setTimeout(function() {
             $(".cat ").addClass("animated slideInUp ");
-          }, 6400);
+          }, 7150);
           setTimeout(function() {
             $(".stage2-bottom_block ").addClass("animated zoomIn ");
-          }, 6500);
+          }, 7300);
 
           setTimeout(function() {
 
@@ -163,36 +177,36 @@
             $(".cat").removeClass("animated ");
             $(".stage2-bottom_block ").removeClass("animated ");
 
-          }, 8000);
+          }, 8900);
 
           /* stage3 */
 
           setTimeout(function() {
             $(".dreams-real").addClass("animated fadeInLeft ");
-          }, 8100);
+          }, 9100);
 
           setTimeout(function() {
             $(".man_cool").addClass("animated fadeInRight ");
-          }, 8200);
+          }, 9200);
 
           setTimeout(function() {
             $(".mouse_cool").addClass("animated fadeInDown");
-          }, 8600);
+          }, 9600);
 
           setTimeout(function() {
             $(".stage3-bottom_block").addClass("animated fadeInRight ");
-          }, 8400);
+          }, 9400);
 
           setTimeout(function() {
             $(".cool").addClass("animated fadeInLeft ");
-          }, 8500);
+          }, 9600);
 
           setTimeout(function() {
             $(".stage3-pointer").addClass("animated slideInUp ");
-          }, 8600);
+          }, 9700);
           setTimeout(function() {
             $(".run_site").addClass("animated slideInUp ");
-          }, 8700);
+          }, 9800);
 
            setTimeout(function() {
             $(".dreams-real").removeClass("animated ");
@@ -203,34 +217,50 @@
             $(".stage3-pointer").removeClass("animated ");
             $(".run_site").removeClass("animated ");
 
-          }, 10900);
+          }, 11400);
 
           /* stage4 */
 
           setTimeout(function() {
             $(".man_rocket").addClass("animated bounceInLeft");
-          },11200);
+          },11800);
 
           setTimeout(function() {
            $(".man_rocket").removeClass("bounceInLeft").addClass("swing");
-          },13700);
+          },14100);
 
           setTimeout(function() {
             $(".stage4-top_title").addClass("animated bounceIn");
-          },13300);
+          },12900);
 
           setTimeout(function() {
             $(".cat_mouse-stage4").addClass("animated zoomIn");
-          },13400);
+          },13000);
 
           setTimeout(function() {
             $(".cloud_holder").addClass("animated fadeIn");
-          },13950);
+          },13550);
 
           setTimeout(function() {
             $(".stage4-bottom_block").addClass("animated zoomIn");
-          },14200);
+          },13800);
          
+           setTimeout(function() {
+            $(".animals_w").hide(2000);
+            $(".man_rocket").removeClass("bounceInLeft");
+            $(".man_rocket").addClass("bounceOutRight");
+           
+          }, 15400);
+
+           setTimeout(function() {
+            $(".stage4-bottom_block").addClass("animated zoomIn");
+          },16000);
+
+          setTimeout(function() {
+            $(".end_text").addClass("animated zoomIn");
+          },16400);
+         
+
         });
   </script>
 </body>

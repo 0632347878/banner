@@ -16,6 +16,7 @@ body {
 
 .top_title {
   color: #f4e762;
+  min-height: 70px;
   font-family: Archangelsk, sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -73,7 +74,7 @@ body {
 }
 
 .bottom_block {
-  margin-top: 69%;
+  margin-top: 65%;
   height: 77px;
   background-color: #bb57d5;
   box-shadow: 0.7px -5px 76px rgba(0, 1, 2, 0.75);
@@ -90,6 +91,7 @@ body {
   bottom: 10px;
   position: absolute;
 }
+
 
 .man,
 .mouse,
@@ -117,9 +119,22 @@ body {
 .cloud_holder,
 .cat_mouse-stage4,
 .man_rocket,
-.stage4-bottom_block
+.stage4-bottom_block,
+.st1-top-text2,
+.st1-top-text1,
+.end_text 
 {
   opacity: 0;
+}
+
+.st1-top-text1, .st1-top-text2 {
+  display: none;
+}
+.st1-top-text1 {
+  color: #fff;
+}
+.st1-top-text1.animated, .st1-top-text2.animated {
+  display: block;
 }
 
 .man.animated,
@@ -152,9 +167,10 @@ body {
 .stage4-bottom_block.animated,
 .create_site,
 .stage4-pointer.animated,
-.your-site.animated
-
-
+.your-site.animated,
+.st1-top-text2.animated,
+.st1-top-text1.animated,
+.end_text.animated
  {
   opacity: 1;
 }
@@ -345,6 +361,17 @@ body {
   bottom: 10px;
   position: absolute;
 }
-.man_rocket {
+
+.end_text {
+  color: #f4e762;
+  font-family: Archangelsk, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.4;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 100%;
   
-}
+  }  
